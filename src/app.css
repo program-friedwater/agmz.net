@@ -1,0 +1,30 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+@font-face {
+  font-family: "LINESeed_JP";
+  src: url("/LINESeed_Bold_JP.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINESeed_KR";
+  src: url("/LINESeedKR-Bd.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  font-family: "LINESeed_JP", sans-serif !important;
+}
+
+.localize {
+    font-family: "LINESeed_KR", sans-serif !important;
+}
+
+html {
+    background-color: black;
+}

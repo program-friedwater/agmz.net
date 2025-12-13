@@ -1,0 +1,15 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/forms';
+@plugin '@tailwindcss/typography';
+@plugin "daisyui";
+
+@font-face {
+	font-family: "LINE Seed JP";
+	src: "static/LINESeed_Bold.woff";
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    background-color: black;
+}
