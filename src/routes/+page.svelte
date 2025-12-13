@@ -51,7 +51,7 @@
 
 <p class="mt-10 text-white text-3xl text-center mb-5">Products</p>
 <div class="links flex flex-col items-center">
-    <Social color="#ffffff" name="Funny Link" alt="Funny Link" redirectUrl="http://localhost:5173/funny" hoverC="#000000"/>
+    <Social color="#ffffff" name="Funny Link" alt="Funny Link" redirectUrl="https://agmz.net/funny" hoverC="#000000"/>
 </div>
 
 <hr class="mt-10 mb-5">
