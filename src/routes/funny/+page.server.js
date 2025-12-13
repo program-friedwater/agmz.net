@@ -10,6 +10,8 @@ const rollLink = [
 
 ];
 
+export const prerender = false;
+
 export function load() {
     throw redirect(302, rollLink[Math.floor(Math.random() * rollLink.length)])
 }
