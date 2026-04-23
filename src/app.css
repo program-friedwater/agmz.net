@@ -25,6 +25,6 @@ body {
     font-family: "LINESeed_KR", sans-serif !important;
 }
 
-html {
-    background-color: black;
+html, body {
+  background: black;
 }

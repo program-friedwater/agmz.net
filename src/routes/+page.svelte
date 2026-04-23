@@ -1,12 +1,13 @@
 <script>
-    import '../routes/layout.css'
-    import myImage from '../assets/image.png'
-    import Social from '../components/social.svelte'
-    import Logos from '../components/logos.svelte'
+    import '../routes/layout.css';
+    import myImage from '../assets/image.png';
+    import Social from '../components/social.svelte';
+    import Logos from '../components/logos.svelte';
     import Fedi from '../components/fedi.svelte';
     import Share from '../components/share.svelte';
+    import Birthday from '../components/birthday.svelte';
 </script>
-
+<Birthday />
 <div class="flex justify-center mt-6 mb-5">
     <img src={myImage} alt="My Avatar" class="w-24 h-24 rounded-full"/>
 </div>
