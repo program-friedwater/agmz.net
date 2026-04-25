@@ -5,12 +5,9 @@
     import Logos from '../components/logos.svelte';
     import Fedi from '../components/fedi.svelte';
     import Share from '../components/share.svelte';
-    import Birthday from '../components/birthday.svelte';
+    // import Birthday from '../components/birthday.svelte';
 </script>
 
-{#if new Date() >= new Date("2026-04-24T00:00:00+09:00")}
-<Birthday />
-{/if}
 <div class="flex justify-center mt-6 mb-5">
     <img src={myImage} alt="My Avatar" class="w-24 h-24 rounded-full"/>
 </div>
